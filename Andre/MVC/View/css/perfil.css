@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Barlow", sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 80px;
+    background-color: #ced4da;
+    border-bottom: 2px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 24px;
+    color: black;
+}
+
+.header-direita {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row-reverse;
+}
+
+.perfil {
+    display: flex;
+    margin: 70px;
+    flex-direction: column;
+
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    margin: 10px;
+    text-decoration: double;
+    align-items: center;
+}
+
+.foto_perfil {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+container {
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    margin-top: 70px;
+
+
+}
+
+.links {
+    flex-wrap: wrap;
+    gap: 40px;
+    font-size: 18px;
+    display: flex;
+    margin: 25px;
+    justify-content: center;
+    margin-top: 120px;
+
+
+}
+
+.sobre_mim {
+    display: flex;
+    font-size: 30px;
+    padding: 30px;
+    flex-direction: column;
+    width: 900px;
+
+    text-align: justify;
+}
+
+h2 {
+    font-size: 35px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+
+}
+
+.sair {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: black;
+    font-size: 30px;
+}
+
+.nome {
+    margin-top: -43px;
+}
+
+main {
+    display: flex;
+    margin: 0 auto;
+    max-width: 90%;
+}
