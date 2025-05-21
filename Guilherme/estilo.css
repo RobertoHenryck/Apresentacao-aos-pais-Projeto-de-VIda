@@ -1,0 +1,311 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+footer{
+    text-align: center;
+}
+.footer  {
+    position: relative;
+    top: 70px;
+}
+.log{
+    height: 100vh;
+}
+
+
+section {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 6px 7px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    margin-bottom: 25PX;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #000000;
+    padding-bottom: 40px;
+}
+
+h2{
+    text-align: center;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+input, .corpologin input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.corpologin input{
+width: 100%;
+}
+
+
+button {
+    width: 80%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+header img{
+    width: 50px;
+    height: 50px;
+}
+
+header .image img{
+  border: solid black;
+    border-radius: 100%;
+}
+
+header .image img:hover{
+    border:  solid rgb(53, 103, 205);
+}
+
+
+header a{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+    padding: 20px;
+}
+
+
+.teste h2{
+    font-size: 30px;
+}
+
+.quemsou{
+    display: flex;
+    flex-direction: column;
+}
+
+.section{
+    width:90%; 
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+
+.section p, li, h3{
+    text-align: justify;
+}
+
+
+.teste:hover{
+    background-color: #c7c7c7;
+}
+
+.teste img{
+    margin-top: 30px;
+width: 400px;
+height: 400px;
+}
+
+.teste{
+   background-color: #efefef;
+   width: 600px;
+   border-radius: 15px;
+}
+
+.teste a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.profissao a{
+text-decoration: none;
+color: #0059ce;
+}
+
+.profissao section:hover{
+    color: #207af0;
+    box-shadow: 6px 7px 10px #646464;
+    background-color: #f8f8f8;
+}
+
+.image img{
+    width: 65px;
+    height: 65px;
+}
+
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a{
+    padding-right:  50px;
+}
+
+header a:hover{
+    color: rgb(52, 103, 205);
+    text-decoration: solid;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.link a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+.buton{
+display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logout{
+    border: #000000;
+  border-radius: 100%;
+    width: 40px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    filter: grayscale(100%);
+}
+
+
+
+.aviso, .avisocadastro, .avisoneutro {
+    
+   
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.aviso{
+    color: red;
+     background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+}
+
+.avisocadastro{
+    color: green;
+    background-color: #e4f8d7;
+    border: 1px solid #c6f5cd;
+}
+
+.avisoneutro{
+    color: rgb(130, 130, 130);
+    background-color: #cecece;
+    border: 1px solid #c6f5cd;
+}
+
+
+
+.link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link a {
+    display: block;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.link b {
+    font-size: 14px;
+}
+
+.foto img{
+    width: 300px;
+    height: 300px;
+    border: solid black;
+
+
+}
+
+.foto{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    font-size: 35px;
+    color: #000000;
+    
+}
+
+.fotoperfil img{
+    width: 300px;
+    height: 300px;
+
+
+}
+
+.fotoperfil{
+    background-color: #c7c7c7;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+.perfil{
+      display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.peni{
+    height: 150px;
+}
+
+.contperfil{
+    height: 500px;
+}
+
