@@ -1,0 +1,51 @@
+body{
+    margin: 30px;
+    padding: 30px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho h1{
+    font-size: 60px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img{
+    width: 80px;
+    height: 80px;
+}
+
+.img2{  
+    width: 150px;
+    height: 150px;
+}
+
+.imgs{  
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+}
+
+.assunto{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+
+.assunto h3{
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
