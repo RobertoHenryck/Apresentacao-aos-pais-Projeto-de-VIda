@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Barlow", sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 80px;
+    background-color: #ced4da;
+    border-bottom: 2px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 24px;
+    color: black;
+}
+
+.header-direita {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row-reverse;
+}
+
+.foto-perfil {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #969696;
+}
+
+
+.titulo2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+
+
+.bloco1,
+.bloco2,
+.bloco3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+    box-shadow: 0 0 8px 1px#c4c9cf;
+    border: 0.2px solid #ced4da;
+    width: 20%;
+    justify-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+    transition: transform 1s ease;
+    border-radius: 15px;
+
+}
+
+
+.bloco1:hover,
+.bloco2:hover,
+.bloco3:hover {
+    transform: scale(1.1);
+   
+}
+
+.bloco1,
+.bloco2,
+.bloco3,
+p {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h2,
+h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    padding: 20px;
+    margin: 2px;
+}
+
+h1 {
+    margin: 50px;
+}
+footer{
+    background-color:#ced4da ;
+    margin-top: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

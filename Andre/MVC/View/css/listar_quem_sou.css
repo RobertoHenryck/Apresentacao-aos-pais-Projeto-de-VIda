@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Barlow", sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+    color: #333;
+}
+
+/* Título principal */
+h2 {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Tabela de dados */
+table.dados-table {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Cabeçalho da tabela */
+th {
+    background-color: #7e7e86;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 16px;
+    text-align: left;
+}
+
+/* Linhas da tabela */
+td {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Parágrafo informativo */
+p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 40px;
+}
+
+/* Link voltar */
+a {
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    text-decoration: none;
+    background-color: #7e7e86;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #6a6a6f;
+}
