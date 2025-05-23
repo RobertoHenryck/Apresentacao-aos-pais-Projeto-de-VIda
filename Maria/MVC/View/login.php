@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once 'C:\Turma2\xampp\htdocs\projeto de vida\MVC\config\config.php';
+require_once 'C:\Turma2\xampp\htdocs\Apresentacao-aos-pais-Projeto-de-VIda\Maria\MVC\config\config.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = $_POST['email'];

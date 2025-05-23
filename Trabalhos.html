@@ -1,11 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="img/icone.png" type="image/x-icon">
+    <title>Trabalhos</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+        body {
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            background-color: #ede0d4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 50px;
+            padding: 50px;
+        }
+
+        .trabalho {
+            display: flex;
+            align-items: center;
+            flex-direction: column; 
+            background-color: #d5bdaf;
+            border-radius: 5%;
+            text-align: center;
+            margin-top: 50px;
+            width: 300px;
+            height: 450px;
+            justify-content: center;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.6s ease, box-shadow 0.6s ease;
+        }
+
+        .trabalho:hover {
+            transform: scale(1.05);
+            box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.35);
+        }
+
+        img {
+            display: block;
+            margin-top: 20px;
+            height: 350px;
+            width: 240px;
+            border-radius: 10px;
+            object-fit: cover;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            color: #432818;
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 20px;
+            margin: 15px 0;
+        }a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>Projetos de Vida</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="trabalho">
+                <a href="Roberto/MVC/VIEW/index.php">
+                <img src="img/Roberto.jpeg" alt="Trabalho do Roberto">
+                <p>Trabalho do Roberto</p></a>
+            </div>
+            <div class="trabalho">
+                <a href="Rafael/index.php">
+                <img src="img/Rafael.jpeg" alt="Trabalho do Rafael">
+                <p>Trabalho do Rafael</p></a>
+            </div>
+            <div class="trabalho">
+                <a href="Guilherme/index.php">
+                <img src="img/Gui.jpeg" alt="Trabalho do Guilherme">
+                <p>Trabalho do Guilherme</p></a>
+            </div>
+            <div class="trabalho">
+                <a href="Maria/MVC/View/login.php">
+                <img src="img/Duda.jpeg" alt="Trabalho da Duda">
+                <p>Trabalho da Duda</p></a>
+            </div>
+            <div class="trabalho">
+                <a href="Andre/MVC/View/index.php">
+                <img src="img/Andre.jpeg" alt="Trabalho do André">
+                <p>Trabalho do André</p></a>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

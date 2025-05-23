@@ -2,7 +2,7 @@
 <?php
 // Configuração do banco de dados
 $host = 'localhost'; // Ou o endereço do seu servidor de banco de dados
-$dbname = 'projetovida'; // Nome do banco de dados
+$dbname = 'ProjetoDeVidaDuda'; // Nome do banco de dados
 $username = 'root'; // Nome de usuário do banco de dados
 $password = ''; // Senha do banco de dados (normalmente vazio no XAMPP)
 

@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';
-$db = 'projeto_vida';
+$db = 'projetodevidaRafael';
 $user = 'root';
 $pass = '';
 
