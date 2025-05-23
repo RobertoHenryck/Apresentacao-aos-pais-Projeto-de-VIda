@@ -374,7 +374,7 @@ button:focus {
         <div style="text-align:center; color: green; font-weight: bold; margin-top: 20px;">
             <?= htmlspecialchars($mensagem) ?>
         </div>
-        <!-- Botão para voltar ao início -->
+        
         <div style="text-align:center;">
             <a href="inicio.php" class="voltar-btn">Voltar ao Início</a>
         </div>

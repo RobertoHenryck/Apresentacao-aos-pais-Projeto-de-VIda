@@ -6,7 +6,9 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
 
 <header class="principal">
     <div class="cabecalho">
+        <a href="inicio.php">
         <img class="img2" src="../DALL·E 2025-03-26 07.40.11 - A modern and inspiring logo for a website about _Projeto de Vida_ (Life Project). The logo should feature a clean, minimalist design with vibrant colo-Photoroom (2).png" alt="Logo Projeto de Vida">
+        </a>
         <h1>MEU PERFIL</h1>
 
         <div class="perfil-container">
@@ -28,6 +30,7 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
 <style>
 .perfil-container {
     display: inline-block;
+    border-radius: 30px;
 }
 
 .perfil-form {
@@ -43,4 +46,10 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
     background: transparent;
     cursor: pointer;
 }
+
+/* Deixa a imagem redonda */
+.imgs {
+    border-radius: 50%;
+}
 </style>
+
